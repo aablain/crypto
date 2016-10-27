@@ -24,8 +24,8 @@ function jumbled(cryptoInput) {
       if (coordinates[ro][col] !==undefined) {
         cryptoString+= coordinates[ro][col];
         counter2++;
-      // }
-      // if (counter2 % 6 === 0) {
+      }
+      if (counter2 % 4 === 0) {
         cryptoString+=" ";
        }
     }
